@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    width: 100vw;
+    max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    padding: 24px;
+}
+
+.hero-image {
+    width: 45%;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-image svg {
+    position: relative;
+    right: 34%;
+}
+
+.hero-content {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+.hero-title {
+    font-family: Roboto-Regular;
+    font-size: 105px;
+    color: #000000;
+}
+
+.hero-subtitle {
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    color: #AB8251;
+    margin-left: 8px;
+}
+
+.hero-social-link-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #5ECED7;
+    text-transform: uppercase;
+}
+
+.hero-social-links {
+    margin-top: 16px;
+}
+
+.hero-social-links a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero-social-links a:hover {
+    text-decoration: underline;
+}
