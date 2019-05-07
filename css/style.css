@@ -76,6 +76,7 @@ table {
 .hero-image svg {
     position: relative;
     right: 34%;
+    overflow: visible;
 }
 
 .hero-content {
