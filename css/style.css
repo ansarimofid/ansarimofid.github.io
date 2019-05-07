@@ -58,13 +58,12 @@ table {
 }
 
 .hero-container {
-    width: 100vw;
     max-width: 810px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     display: flex;
     padding: 24px;
+    position: relative;
 }
 
 .hero-image {
@@ -106,6 +105,10 @@ table {
     text-transform: uppercase;
 }
 
+.hero-social-link-container {
+    margin-left: 8px;
+}
+
 .hero-social-links {
     margin-top: 16px;
 }
@@ -118,4 +121,58 @@ table {
 
 .hero-social-links a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width:835px) {
+    .hero-image {
+        transform: scale(0.5);
+        position: absolute;
+        top: -320px;
+        left: 0;
+    }
+
+    .hero-container {
+        justify-content: center;
+        margin-top: 250px;
+
+    }
+
+    .hero-social-link-container {
+        margin-top: 80px;        
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hero-image {
+        transform: scale(0.4);
+    }
+
+    .hero-container {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .hero-image {
+        transform: scale(0.3);
+    }
+
+    .hero-container {
+        margin-top: 150px;
+    }
+
+    .hero-content {
+        padding-top: 24px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .hero-image {
+        transform: scale(0.25);
+        top: -290px;
+    }
+
+    .hero-container {
+        margin-top: 100px;
+    }
 }
