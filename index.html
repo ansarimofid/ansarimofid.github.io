@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Mofid Ansari</title>
 
@@ -13,7 +14,18 @@
     <link rel="shortcut icon" href="/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90726494-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-90726494-3');
+    </script>
+
 </head>
+
 <body>
     <section class="hero">
         <div class="hero-container">
@@ -34,16 +46,16 @@
                 </div>
             </div>
             <div class="hero-image">
-                    <svg width="483" height="503" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" fill-rule="evenodd" id="scene1">
-                          <path data-depth="0.4" fill="#FDEFDE" d="M0 .5h483v444H0z"/>
-                          <path data-depth="0.5" fill="#000" d="M130 114.5h294v388H130z"/>
-                          <path data-depth="0.7" fill="#5ECED7" d="M155 181.5h303v255H155z"/>
-                          <path data-depth="0.9" fill="#FFF" d="M73 393.5h135v19H73z"/>
-                          <circle data-depth="1" fill="#FFF" cx="156" cy="187.5" r="99"/>
-                          <circle data-depth="1.25" fill="#FFF" cx="381" cy="428.5" r="29"/>
-                        </g>
-                      </svg>
+                <svg width="483" height="503" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd" id="scene1">
+                        <path data-depth="0.4" fill="#FDEFDE" d="M0 .5h483v444H0z" />
+                        <path data-depth="0.5" fill="#000" d="M130 114.5h294v388H130z" />
+                        <path data-depth="0.7" fill="#5ECED7" d="M155 181.5h303v255H155z" />
+                        <path data-depth="0.9" fill="#FFF" d="M73 393.5h135v19H73z" />
+                        <circle data-depth="1" fill="#FFF" cx="156" cy="187.5" r="99" />
+                        <circle data-depth="1.25" fill="#FFF" cx="381" cy="428.5" r="29" />
+                    </g>
+                </svg>
             </div>
         </div>
     </section>
@@ -54,7 +66,8 @@
         var scene2 = document.getElementById('scene2');
         var parallaxInstance = new Parallax(scene1);
         var parallaxInstance = new Parallax(scene2);
-    
+
     </script>
 </body>
+
 </html>
